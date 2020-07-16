@@ -19,7 +19,7 @@ class CountryInfo:
         :param country_name: str
             pass country name
         """
-        self.__country_name = country_name.lower() if country_name else ''
+      
         # get the files path
         __file_dir_path = dirname(realpath(__file__))
         __country_files = __file_dir_path + '/data/'
